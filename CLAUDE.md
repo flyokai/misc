@@ -1,7 +1,5 @@
 # flyokai/misc
 
-> User docs → [`README.md`](README.md) · Agent quick-ref → [`CLAUDE.md`](CLAUDE.md) · Agent deep dive → [`AGENTS.md`](AGENTS.md)
-
 Utility helpers: CryptKey (OpenSSL), ProfilerFacade (nested timers), PsrServerAdapter (AMPHP ↔ PSR-7), SharedSequence (async ordering).
 
 See [AGENTS.md](AGENTS.md) for detailed documentation.
