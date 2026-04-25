@@ -1,5 +1,7 @@
 # flyokai/misc
 
+> User docs → [`README.md`](README.md) · Agent quick-ref → [`CLAUDE.md`](CLAUDE.md) · Agent deep dive → [`AGENTS.md`](AGENTS.md)
+
 Collection of utility helpers: cryptographic key management, performance profiling, PSR-7 ↔ AMPHP protocol adapters, and async sequencing primitives.
 
 ## Key Abstractions
