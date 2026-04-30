@@ -16,7 +16,7 @@ class ProfilerFacade
             self::stat()->stop($timerId, microtime(true), memory_get_usage(true), memory_get_usage());
         }
     }
-    public static function getFilteredTimerIds(array $thresholds = null, $filterPattern = null): array
+    public static function getFilteredTimerIds(?array $thresholds = null, $filterPattern = null): array
     {
         if (self::isEnabled()) {
             return self::stat()->getFilteredTimerIds($thresholds, $filterPattern);

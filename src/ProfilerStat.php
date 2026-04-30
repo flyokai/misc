@@ -153,7 +153,7 @@ class ProfilerStat
      * @param string|null $filterPattern
      * @return array
      */
-    public function getFilteredTimerIds(array $thresholds = null, $filterPattern = null): array
+    public function getFilteredTimerIds(?array $thresholds = null, $filterPattern = null): array
     {
         $timerIds = $this->_getOrderedTimerIds();
         if (!$thresholds && !$filterPattern) {
